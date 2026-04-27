@@ -1,4 +1,4 @@
-# Portfolio — Germán Reyes
+# Portfolio — ING ALEHNA ECHARRY
 
 Portafolio profesional de alto impacto. Stack: **React + Tailwind CSS + Vite**.
 
