@@ -176,6 +176,58 @@ export default function Skills() {
           })}
         </div>
 
+        {/* Work Experience Section */}
+        <div className="mt-20 mb-10">
+          <h2 className="font-display font-black text-3xl text-white tracking-tight mb-8">
+            EXPERIENCIA LABORAL
+          </h2>
+          <div className="grid gap-6">
+            {[
+              {
+                role: "Ingeniero de Telecomunicaciones | Prácticas Profesionales",
+                company: "Movilnet",
+                period: "Febrero 2025 - Marzo 2025",
+                logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Logo_Movilnet.png/800px-Logo_Movilnet.png",
+                desc: "Departamento de Operaciones y Mantenimiento: Conmutación y fibra de la Red Maracay / San Fernando."
+              },
+              {
+                role: "Freelancer",
+                company: "Workana",
+                period: "2021 - 2026",
+                logo: "https://images.crunchbase.com/image/upload/c_pad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/iukj9un1v7x5z0lyqsh6",
+                desc: "Desarrollador Junior: WordPress y VanillaJS, HTML5, CSS3, PHP."
+              },
+              {
+                role: "Desarrollador Senior Fullstack",
+                company: "The Websell",
+                period: "Diciembre 2025 - Actualidad",
+                logo: "https://thewebsell.com/wp-content/uploads/2021/05/logo-websell.png",
+                desc: "Stack: React, Node.js, Next.js, WordPress, Python, PHP, SQL, Tailwind, TypeScript, Shopify."
+              }
+            ].map((job, i) => (
+              <div key={i} className="bg-[#0e0e0e] border border-white/5 p-6 hover:border-[#C8FF00]/30 transition-colors flex flex-col md:flex-row gap-6 items-start md:items-center">
+                {job.logo && (
+                  <div className="w-16 h-16 flex-shrink-0 bg-white/5 p-2 flex items-center justify-center">
+                    <img src={job.logo} alt={job.company} className="max-w-full max-h-full object-contain" />
+                  </div>
+                )}
+                <div className="flex-1">
+                  <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-3">
+                    <h3 className="text-[#C8FF00] font-display font-bold text-lg tracking-tight">
+                      {job.role}
+                    </h3>
+                    <span className="text-white/20 text-xs font-body uppercase tracking-widest bg-white/5 px-3 py-1 rounded-full whitespace-nowrap w-fit">
+                      {job.period}
+                    </span>
+                  </div>
+                  <p className="text-white/80 font-display font-medium text-sm mb-2">{job.company}</p>
+                  <p className="text-white/40 text-sm font-body leading-relaxed">{job.desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
         {/* Bottom note */}
         <div className="mt-16 border border-white/5 p-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
           <div>
