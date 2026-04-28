@@ -15,7 +15,7 @@ export default function Contact() {
     setLoading(true);
     
     try {
-      const response = await fetch("https://formspree.io/f/alehnaec@gmail.com", {
+      const response = await fetch("https://formspree.io/f/alehnaec", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -172,7 +172,7 @@ export default function Contact() {
                       value={form.name}
                       onChange={handleChange}
                       placeholder="Tu nombre"
-                      className="w-full bg-white/3 border border-white/8 focus:border-[#C8FF00]/50 outline-none px-4 py-3 text-white text-sm font-body placeholder:text-white/20 transition-colors"
+                      className="w-full bg-[#1A1A1A] border border-white/10 focus:border-[#C8FF00]/60 outline-none px-4 py-3 text-white text-sm font-body placeholder:text-white/30 transition-colors"
                     />
                   </div>
                   <div>
@@ -186,7 +186,7 @@ export default function Contact() {
                       value={form.email}
                       onChange={handleChange}
                       placeholder="tu@email.com"
-                      className="w-full bg-white/3 border border-white/8 focus:border-[#C8FF00]/50 outline-none px-4 py-3 text-white text-sm font-body placeholder:text-white/20 transition-colors"
+                      className="w-full bg-[#1A1A1A] border border-white/10 focus:border-[#C8FF00]/60 outline-none px-4 py-3 text-white text-sm font-body placeholder:text-white/30 transition-colors"
                     />
                   </div>
                 </div>
@@ -199,7 +199,7 @@ export default function Contact() {
                     name="project"
                     value={form.project}
                     onChange={handleChange}
-                    className="w-full bg-white/3 border border-white/8 focus:border-[#C8FF00]/50 outline-none px-4 py-3 text-white text-sm font-body transition-colors appearance-none"
+                    className="w-full bg-[#1A1A1A] border border-white/10 focus:border-[#C8FF00]/60 outline-none px-4 py-3 text-white text-sm font-body transition-colors appearance-none"
                   >
                     <option value="" className="bg-[#111]">Selecciona una opción</option>
                     <option value="webapp" className="bg-[#111]">Web App / SaaS</option>
@@ -222,7 +222,7 @@ export default function Contact() {
                     value={form.message}
                     onChange={handleChange}
                     placeholder="Descríbeme tu idea, presupuesto estimado y timeline..."
-                    className="w-full bg-white/3 border border-white/8 focus:border-[#C8FF00]/50 outline-none px-4 py-3 text-white text-sm font-body placeholder:text-white/20 transition-colors resize-none"
+                    className="w-full bg-[#1A1A1A] border border-white/10 focus:border-[#C8FF00]/60 outline-none px-4 py-3 text-white text-sm font-body placeholder:text-white/30 transition-colors resize-none"
                   />
                 </div>
 
