@@ -185,7 +185,7 @@ export default function Skills() {
             {[
               {
                 role: "Ingeniero de Telecomunicaciones | Prácticas Profesionales",
-                company: "Movilnet",
+                company: "Telecomunicaciones Movilnet C.A.",
                 period: "Febrero 2025 - Marzo 2025",
                 logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Logo_Movilnet.png/800px-Logo_Movilnet.png",
                 desc: "Departamento de Operaciones y Mantenimiento: Conmutación y fibra de la Red Maracay / San Fernando."
@@ -194,12 +194,12 @@ export default function Skills() {
                 role: "Freelancer",
                 company: "Workana",
                 period: "2021 - 2026",
-                logo: "https://images.crunchbase.com/image/upload/c_pad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/iukj9un1v7x5z0lyqsh6",
+                logo: "https://upload.wikimedia.org/wikipedia/commons/e/e4/Workana_Logo.png",
                 desc: "Desarrollador Junior: WordPress y VanillaJS, HTML5, CSS3, PHP."
               },
               {
                 role: "Desarrollador Senior Fullstack",
-                company: "The Websell",
+                company: "The Websell Winet LLC",
                 period: "Diciembre 2025 - Actualidad",
                 logo: "https://thewebsell.com/wp-content/uploads/2021/05/logo-websell.png",
                 desc: "Stack: React, Node.js, Next.js, WordPress, Python, PHP, SQL, Tailwind, TypeScript, Shopify."
