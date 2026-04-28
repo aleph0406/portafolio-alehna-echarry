@@ -10,7 +10,7 @@
               <span className="text-black font-display font-black text-xs tracking-tighter">GR</span>
             </div>
             <span className="text-white/30 text-sm font-body">
-              © 2025 Germán Reyes. Todos los derechos reservados.
+              © 2025 Ing Alehna Echarry. Todos los derechos reservados.
             </span>
           </div>
   
