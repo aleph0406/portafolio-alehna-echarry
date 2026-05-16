@@ -35,7 +35,7 @@ const projects = [
       "Ecosistema digital completo: imprenta corporativa, sistema de facturación electrónica y landing pages de IA para el mercado panameño.",
     url: "https://thefactoryhka.com.pa/",
     image: hkaPanamaImg,
-    tags: ["Next.js", "Node.js", "IA", "Facturación"],
+    tags: ["API REST", "Wordpress", "IA", "Facturación", "ChatBot"],
     accent: "#C8FF00",
     featured: true,
   },
@@ -47,7 +47,7 @@ const projects = [
       "Liderazgo en facturación electrónica y soluciones fiscales. Ecosistema digital robusto para el mercado venezolano.",
     url: "https://imprenta.thefactoryhka.com.ve/",
     image: hkaVzlaImg,
-    tags: ["Next.js", "Node.js", "IA", "Fiscal"],
+    tags: ["Wordpress", "ChatBot", "IA", "Fiscal"],
     accent: "#C8FF00",
     featured: true,
   },
@@ -72,7 +72,7 @@ const projects = [
       "Tienda online de accesorios con una estética visual cuidada y experiencia de compra optimizada para conversión.",
     url: "https://zales-accesories.vercel.app/categorias",
     image: zalesImg,
-    tags: ["React", "Vercel", "E-Commerce"],
+    tags: ["React", "Node.js", "Next.js", "E-Commerce"],
     accent: "#E8B4B8",
   },
   {
@@ -105,7 +105,7 @@ const projects = [
       "Website de propuesta para firma consultora. Comunicación de valor clara, diseño que proyecta autoridad y credibilidad instantánea.",
     url: "https://facex-proposal-website.vercel.app/",
     image: facexImg,
-    tags: ["React", "Vercel", "Business"],
+    tags: ["React", "React Native", "Node.js", "Next.js", "Business"],
     accent: "#A78BFA",
   },
   {
@@ -139,7 +139,7 @@ const projects = [
       "Landing page especializada para soluciones de Inteligencia Artificial para empresas en The Factory HKA Panama.",
     url: "https://thefactoryhka.com.pa/atencion-al-cliente-con-ia-para-empresas/",
     image: iaPanamaImg,
-    tags: ["Next.js", "AI", "Landing Pages"],
+    tags: ["Wordpress", "AI", "Landing Pages"],
     accent: "#38BDF8",
   },
   {
@@ -150,7 +150,7 @@ const projects = [
       "Landing page especializada en cumplimiento fiscal y facturación electrónica para el mercado panameño bajo normativas DGI.",
     url: "https://thefactoryhka.com.pa/facturacion-electronica-cumple-con-la-dgi/",
     image: felImg,
-    tags: ["DGI", "Fintech", "Compliance"],
+    tags: ["DGI", "Fintech", "Compliance", "B2C"],
     accent: "#C8FF00",
   },
   {
