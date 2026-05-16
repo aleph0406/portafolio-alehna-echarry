@@ -29,6 +29,7 @@ const skillGroups = [
     accent: "#FB923C",
     skills: [
       { name: "Shopify", level: 90 },
+      { name: "Liquid", level: 85 },
       { name: "WordPress", level: 88 },
       { name: "Elementor", level: 85 },
       { name: "WooCommerce", level: 80 },
@@ -116,6 +117,7 @@ export default function Skills() {
               "Tailwind",
               "TypeScript",
               "Shopify",
+              "Liquid",
               "WordPress",
               "Framer Motion",
               "Figma",
@@ -128,6 +130,7 @@ export default function Skills() {
               "Tailwind",
               "TypeScript",
               "Shopify",
+              "Liquid",
               "WordPress",
               "Framer Motion",
               "Figma",
