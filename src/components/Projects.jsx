@@ -56,8 +56,8 @@ const projects = [
     title: "Captain Candy Shop",
     category: "E-Commerce / Shopify",
     description:
-      "Ecommerce desarrollado en Shopify para vender candybags y crear tu propia caja de dulces, con manipulación del DOM y jQuery especiales para ver animación en vivo al momento de crear tu propia caja de candies. Me encargué del frontend.",
-    url: "#",
+      "Desarrollo Frontend en Shopify para un e-commerce de Captain Candy. Configurador interactivo utilizando jQuery y manipulación del DOM, ofreciendo animaciones en tiempo real y una experiencia de usuario dinámica y fluida.",
+    url: "https://captain-candy-shop.myshopify.com/",
     image: captainCandyImg,
     tags: ["Shopify", "Liquid", "Ecommerce", "Integraciones de envío y pagos"],
     accent: "#FF007A",
