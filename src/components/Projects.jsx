@@ -11,6 +11,8 @@ import websellImg from "./websell.png";
 import iaPanamaImg from "./ia-panama.png";
 import felImg from "./fel.png";
 import utilitarioImg from "./utilitario.png";
+import captainCandyImg from "./captaincandy.png";
+
 
 const projects = [
   {
@@ -49,6 +51,19 @@ const projects = [
     accent: "#C8FF00",
     featured: true,
   },
+  {
+    id: 13,
+    title: "Captain Candy Shop",
+    category: "E-Commerce / Shopify",
+    description:
+      "Ecommerce desarrollado en Shopify para vender candybags y crear tu propia caja de dulces, con manipulación del DOM y jQuery especiales para ver animación en vivo al momento de crear tu propia caja de candies. Me encargué del frontend.",
+    url: "#",
+    image: captainCandyImg,
+    tags: ["Shopify", "Liquid", "Ecommerce", "Integraciones de envío y pagos"],
+    accent: "#FF007A",
+    featured: true,
+  },
+
   {
     id: 3,
     title: "Zales Accresories",
